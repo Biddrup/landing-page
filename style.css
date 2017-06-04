@@ -155,10 +155,10 @@ Begenning of how it works area
 }
 .signup-query {
     width: 40%;
-    background-color: rgba(255,0,0,0.1);
+    background-color: rgba(255,255,255,0.5);
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 }
 .signup-query input::placeholder {
     text-align: center;
