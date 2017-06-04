@@ -41,6 +41,9 @@ Begenning of header area
     font-size: 30px;
     border-radius: 30%;
 }
+.details {
+    background-image: url();
+}
 /*
 ================
 Begenning of featured area
@@ -143,6 +146,22 @@ Begenning of how it works area
    line-height: 1.42857143;
    border: 2px dashed #FF2841;
    border-radius: 50%;
+}
+.signup-area {
+    position: relative;
+}
+.signup-area img {
+    width: 100%;
+}
+.signup-query {
+    width: 40%;
+    background-color: rgba(255,0,0,0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.signup-query input::placeholder {
+    text-align: center;
 }
 /*
 ================
