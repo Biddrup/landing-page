@@ -1,0 +1,151 @@
+/*
+================
+Begenning of header area
+================
+*/
+.header {
+    background-image: url(images/header-background.png);
+}
+.header .navbar {
+    text-transform: uppercase;
+}
+.header .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.right-menu li {
+    padding-top: 15px;
+    font-size: 10px;
+}
+.header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.header .navbar-collapse .btn {
+    padding: 0 15px;
+    border-radius: 11px;
+    background-color: #FF2841;
+}
+.welcome {
+    text-align: center;
+    font-size: 65px;
+    color: #fff;
+    padding: 195px 0;
+}
+.welcome span {
+    color: #FF2841;
+    text-transform: uppercase;
+}
+.sign-up .btn {
+    text-transform: capitalize;
+    background-color: #FF2841;
+    font-size: 30px;
+    border-radius: 30%;
+}
+/*
+================
+Begenning of featured area
+================
+*/
+.featured-area {
+	background-color: #FF2841;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.featured-title {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+.featured-title h2 {
+	display: inline-block;
+	position: relative;
+}
+.featured-title h2:after {
+    position: absolute;
+    content: " ";
+    border: 1px solid #fff;
+    right: -50%;
+    bottom: 50%;
+    width: 57px;
+}.featured-title h2:before {
+    position: absolute;
+    content: " ";
+    border: 1px solid #fff;
+    left: -50%;
+    bottom: 50%;
+    width: 57px;
+}
+.featured-area h4 {
+	text-transform: capitalize;
+}
+
+.featured-content {
+   padding-left: 80px;
+   position: relative;
+}
+.user-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*
+================
+End of featured area
+================
+*/
+
+
+/*
+================
+Begenning of how it works area
+================
+*/
+.works {
+    text-align: center;
+}
+.works .container .works-content .works-head h2 {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding: 20px 10px;
+}
+.works .container .works-content .works-head h2:before {
+    content: " ";
+    top: 50%;
+    left: -30%;
+    border: 1px solid #000;
+    position: absolute;
+    width: 53px;
+}
+.works .container .works-content .works-head h2:after {
+    content: " ";
+    top: 50%;
+    right: -30%;
+    border: 1px solid #000;
+    position: absolute;
+    width: 53px;
+}
+.steps ul {
+}
+.steps ul li {
+}
+.works .nav-tabs>li>a {
+    margin-left: 10px;
+    line-height: 1.42857143;
+    border: 2px dashed #444;
+    border-radius: 50%;
+}
+.works .nav-tabs>li.active>a,
+.works .nav-tabs>li.active>a:focus,
+.works .nav-tabs>li.active>a:hover {
+   margin-right: 2px;
+   line-height: 1.42857143;
+   border: 2px dashed #FF2841;
+   border-radius: 50%;
+}
+/*
+================
+End of how it works area
+================
+*/
